@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>G-Eazy - Landing</title>
+        <link href="css/landing.css" type="text/css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".loader").animate({
+                    width: "100%"
+                }, 5500, function() {
+                    window.location.href = "home.html";
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="slike/geazy.jpg" alt="G-Eazy logo">
+            <div class="loaderbar">
+                <div class="loader">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

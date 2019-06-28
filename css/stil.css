@@ -1,0 +1,550 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::selection {
+    color: white;
+    background-color: #141414;
+}
+
+.blacka {
+    color: #141414 !important;
+    transition: 0.5s;
+}
+
+.blacka:hover {
+    color: silver !important;
+}
+
+.whitenav {
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.imga {
+    transition: 0.5s;
+    background-image: url("../slike/grazylogoblack.png") !important;
+}
+
+html, body, .container {
+    width: 100%;
+    height: 100%;
+    font-family: "Karla";
+}
+
+.container nav {
+    z-index: 1;
+    transition: 0.5s;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.container nav > a {
+    transition: 0.5s;
+    top: 5px;
+    position: absolute;
+    margin-left: 100px;
+    padding: 30px;
+    background-image: url("../slike/grazylogo.png");
+    background-size: cover;
+}
+
+.container nav .innernav {
+    text-align: right;
+    width: 95%;
+    margin: auto;
+    padding: 25px;
+}
+
+.container nav .innernav a {
+    transition: 0.5s;
+    color: white;
+    margin: 0px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Karla";
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.container nav .innernav a:hover {
+    color: silver;
+}
+
+.container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url("../slike/header.jpg");
+    background-size: cover;
+}
+
+@keyframes a {
+    0% {
+        transform: translateY(0px);
+    }
+    
+    25% {
+        transform: translateY(10px);
+    }
+    
+    50% {
+        transform: translateY(0px);
+    }
+    
+    75% {
+        transform: translateY(-10px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.container header a {
+    position: absolute;
+    bottom: 40px;
+    padding: 40px;
+    background-image: url("../slike/downarrowwhite.png");
+    background-size: cover;
+    animation-name: a;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+.container .contentlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    background-color: #141414;
+}
+
+.container .contentlinks a {
+    border: 3px solid transparent;
+    margin: 0px 50px;
+    font-weight: bold;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+.container .contentlinks a:hover {
+    border: 3px solid white;
+    color: white;
+    background-color: #141414;
+}
+
+.container .aboutheader {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.container .aboutheader img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.container .aboutheader .playbutton {
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    border: 0px;
+    width: 64px;
+    height: 64px;
+    background-image: url("../slike/play.png");
+    cursor: pointer;
+}
+
+.container .aboutheader .pausebutton {
+    top: 40px;
+    left: 120px;
+    position: absolute;
+    border: 0px;
+    width: 64px;
+    height: 64px;
+    background-image: url("../slike/pause.png");
+    cursor: pointer;
+}
+
+.container .about {
+    padding: 40px 0px;
+}
+
+.container .about h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container .about p {
+    text-align: center;
+    line-height: 35px;
+    width: 20%;
+    margin: 20px auto;
+}
+
+.container .tours {
+    color: white;
+    background-color: #141414;
+    padding: 40px 0px;
+}
+
+.container .tours h1 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.container .tours hr {
+    border: 0px;
+    height: 1px;
+    background-color: grey;
+    margin: 50px auto;
+    width: 55%;
+}
+
+.container .tours .tourslist {
+    margin: auto;
+    width: 55%;
+}
+
+.container .tours .tourslist .tour {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container .tours .tourslist .tour .place {
+    color: silver;
+}
+
+.container .tours .tourslist .tour button {
+    font-weight: bold;
+    border: 0px;
+    color: white;
+    font-family: "Karla";
+    background-color: #141414;
+    cursor: pointer;
+}
+
+.container .tours .tourslist .tour button hr {
+    background-color: white;
+    width: 0%;
+    margin: 0px;
+    transition: 0.5s;
+}
+
+.container .tours .tourslist .tour button:hover hr {
+    width: 100%;
+}
+
+.container .news {
+    padding: 40px 0px;
+}
+
+.container .news h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container .news .newsbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container .news .newsbox img {
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
+.container .news .newsbox h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container .news .newsbox h6 {
+    text-align: center;
+    color: silver;
+}
+
+.container .news .newsbox .box {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.container .booking {
+    text-align: center;
+    color: white;
+    background-color: #141414;
+    padding: 40px 0px;
+}
+
+.container .booking p {
+    margin: 10px auto 40px auto;
+    width: 20%;
+}
+
+.container .booking button {
+    padding: 10px 40px;
+    font-family: "Karla";
+    font-weight: bold;
+    border: 3px solid #141414;
+    background-color: white;
+    color: #141414;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container .booking button:hover {
+    background-color: #141414;
+    color: white;
+    border: 3px solid white;
+}
+
+.container footer {
+    padding: 80px 0px;
+}
+
+.container footer h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container footer .socials {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.container footer .socials a {
+    margin: 30px;
+    padding: 12px;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.container footer .socials a:first-of-type {
+    background-image: url("../slike/twitterblack.png");
+}
+
+.container footer .socials a:first-of-type:hover {
+    background-image: url("../slike/twitterblue.png");
+}
+
+.container footer .socials a:nth-of-type(2) {
+    background-image: url("../slike/facebookblack.png");
+}
+
+.container footer .socials a:nth-of-type(2):hover {
+    background-image: url("../slike/facebookblue.png");
+}
+
+.container footer .socials a:nth-of-type(3) {
+    background-image: url("../slike/spotifyblack.png");
+}
+
+.container footer .socials a:nth-of-type(3):hover {
+    background-image: url("../slike/spotifygreen.png");
+}
+
+.container footer .socials a:nth-of-type(4) {
+    background-image: url("../slike/youtubeblack.png");
+}
+
+.container footer .socials a:nth-of-type(4):hover {
+    background-image: url("../slike/youtubered.png");
+}
+
+.container footer span {
+    display: block;
+    text-align: center;
+}
+
+.container .mobilenav {
+    display: none;
+}
+
+.container .mobilenavigation {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .container .about p {
+        width: 50%;
+    }
+    
+    .container .booking p {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        display: none;
+    }
+    
+    .container header img {
+        width: 40%;
+    }
+    
+    .container .mobilenav {
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 50px;
+        left: 50px;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        box-shadow: 0px 0px 10px #141414;
+    }
+    
+    .container .mobilenav .line1 {
+        transition: 0.5s;
+        margin-bottom: 10px;
+        width: 80%;
+        height: 7px;
+        background-color: #141414;
+    }
+    
+    .container .mobilenav .line2 {
+        transition: 0.5s;
+        width: 80%;
+        height: 7px;
+        background-color: #141414;
+    }
+    
+    .line1anim {
+        transform: translateY(10px) rotate(45deg);
+    }
+    
+    .line2anim {
+        transform: translateY(-5px) rotate(-45deg);
+    }
+    
+    .container .mobilenavigation {
+        box-shadow: 0px 0px 10px #141414;
+        z-index: 1;
+        width: 30%;
+        padding: 20px;
+        position: fixed;
+        top: 50px;
+        left: 130px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    
+    .container .mobilenavigation a {
+        padding: 20px 0px;
+        color: #141414;
+        font-family: "Karla";
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .container .tours hr {
+        width: 80%;
+    }
+    
+    .container .tours .tourslist {
+        width: 80%;
+    }
+    
+    .container .news .newsbox .box h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container .contentlinks a {
+        padding: 20px 40px;
+    }
+    
+    .container .news .newsbox .box {
+        width: 45%;
+    }
+    
+    .container .tours .tourslist {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container .mobilenavigation {
+        width: 50%;
+    }
+    
+    .container .contentlinks a {
+        font-size: 10px;
+    }
+    
+    .container .aboutheader .playbutton {
+        width: 30px;
+        height: 30px;
+        left: 20px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .container .aboutheader .pausebutton {
+        width: 30px;
+        height: 30px;
+        top: 80px;
+        left: 20px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container .news .newsbox .box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .container .contentlinks a {
+        padding: 10px 30px;
+    }
+    
+    .container .aboutheader .pausebutton {
+        top: 80px;
+        left: 20px;
+    }
+    
+    .container .about p {
+        width: 80%;
+    }
+}

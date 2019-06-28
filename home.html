@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>G-Eazy - Home</title>
+        <link href="css/stil.css" type="text/css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+        <script src="js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <a href="home.html"></a>
+                <div class="innernav">
+                    <a href="#content" onclick="$('#content').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">Listen & Albums</a><a href="#about" onclick="$('#about').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">About</a><a href="#tours" onclick="$('#tours').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">Tours</a><a href="#news" onclick="$('#news').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">News</a><a href="#booking" onclick="$('#booking').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">Booking</a>
+                </div>
+            </nav>
+            <div class="mobilenav">
+                <div class="line1">
+                </div>
+                <div class="line2">
+                </div>
+            </div>
+            <div class="mobilenavigation">
+                <a href="#content" onclick="$('#content').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">Listen & Albums</a><a href="#about" onclick="$('#about').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">About</a><a href="#tours" onclick="$('#tours').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">Tours</a><a href="#news" onclick="$('#news').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">News</a><a href="#booking" onclick="$('#booking').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">Booking</a>
+            </div>
+            <header>
+                <img src="slike/grazylogo.png" alt="G-Eazy logo">
+                <a href="#content" onclick="$('#content').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});"></a>
+            </header>
+            <div id="content" class="contentlinks">
+                <a href="http://smarturl.it/TBAD">Listen Now</a>
+                <a href="https://g-eazystore.com/">Album Bundles</a>
+            </div>
+            <div id="about" class="aboutheader">
+                <button class="playbutton" onclick="document.getElementById('geazymusic').play()"></button>
+                <button class="pausebutton" onclick="document.getElementById('geazymusic').pause()"></button>
+                <img src="slike/geazyimage.jpg">
+                <audio id="geazymusic" src="audio/music.mp3"></audio>
+            </div>
+            <div class="about">
+                <h2>About</h2>
+                <p>G-Eazy is a rapper and producer from Oakland, California. His third studio album, The Beautiful & Damned is now available worldwide.</p>
+            </div>
+            <div id="tours" class="tours">
+                <h1>Tours</h1>
+                <hr>
+                <div class="tourslist">
+                    <div class="tour">
+                        <h4>FEB 14 THU</h4>
+                        <p class="place">Dubai Media City Ampitheater</p>
+                        <p>Dubai, United Arab Emirates</p>
+                        <button class="ticketbutton">Tickets<hr></button>
+                    </div>
+                    <div class="tour">
+                        <h4>AUG 16 FRI</h4>
+                        <p class="place">Green Park</p>
+                        <p>St Pölten, Austria</p>
+                        <button class="ticketbutton">Tickets<hr></button>
+                    </div>
+                </div>
+            </div>
+            <div id="news" class="news">
+                <h1>Latest News</h1>
+                <div class="newsbox">
+                    <div class="box" data-aos="fade-up">
+                        <img src="slike/my-year.jpg">
+                        <h3>GASHI - MY YEAR FEAT. G-EAZY</h3>
+                        <h6>JAN 23, 2019  MUSIC</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="100">
+                        <img src="slike/girlshavefun.jpg">
+                        <h3>TYGA - GIRLS HAVE FUN FT. G-EAZY & RICH THE KID</h3>
+                        <h6>JAN 23, 2019  MUSIC</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="200">
+                        <img src="slike/TBAD-REMIX-16x9.jpg">
+                        <h3>THE BEAUTIFUL & DAMNED - 1 YEAR ANNIVERSARY REMIX EP</h3>
+                        <h6>DEC 15, 2018</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up">
+                        <img src="slike/Screen+Shot+2018-11-14+at+8.08.07+AM.jpg">
+                        <h3>MARC E. BASSY - LOVE HER TOO FT. G-EAZY</h3>
+                        <h6>NOV 8, 2018  MUSIC VIDEO</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="100">
+                        <img src="slike/rdta.jpg">
+                        <h3>ROAD TO THE ALBUM</h3>
+                        <h6>OCT 7, 2018  RECAP</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="200">
+                        <img src="slike/maxresdefault.jpg">
+                        <h3>MARC E. BASSY - LOVE HER TOO FT. G-EAZY</h3>
+                        <h6>OCT 5, 2018  MUSIC</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up">
+                        <img src="slike/maxresdefault-1.jpg">
+                        <h3>PHORA - FOR YOU FT. G-EAZY & TORY LANEZ</h3>
+                        <h6>OCT 5, 2018  MUSIC</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="100">
+                        <img src="slike/EAZY-ENDLESS_SUMMER_FREESTYLE-1920X1080.jpg">
+                        <h3>G-EAZY - ENDLESS SUMMER FREESTYLE FT. YG</h3>
+                        <h6>OCT 2, 2018  MUSIC</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="200">
+                        <img src="slike/ENDLESSUMMERLOOKBOOK-.jpg">
+                        <h3>2018 “ENDLESS SUMMER” LOOKBOOK</h3>
+                        <h6>SEP 18, 2018</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up">
+                        <img src="slike/THUMB-REWIND.jpg">
+                        <h3>REWIND FT. ANTHONY RUSSO</h3>
+                        <h6>SEP 12, 2018  MUSIC VIDEO</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="100">
+                        <img src="slike/THUMB-BAD_BOY.jpg">
+                        <h3>G-EAZY - BAD BOY</h3>
+                        <h6>AUG 31, 2018  MUSIC</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="200">
+                        <img src="slike/DSC08426.jpg">
+                        <h3>SAWEETIE X LONDON ON DA TRACK - UP NOW FT. G-EAZY & RICH THE KID</h3>
+                        <h6>AUG 30, 2018  MUSIC VIDEO</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up">
+                        <img src="slike/thumb-girls.jpg">
+                        <h3>GOODY GRACE - GIRLS IN THE SUBURBS SINGING SMITHS SONGS FT. G-EAZY</h3>
+                        <h6>AUG 21, 2018  MUSIC</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="100">
+                        <img src="slike/thumb-drop.jpg">
+                        <h3>G-EAZY - DROP FT. BLAC YOUNGSTA & BLOCBOY JB</h3>
+                        <h6>AUG 15, 2018  MUSIC VIDEO</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="200">
+                        <img src="slike/thumb-reverse.jpg">
+                        <h3>VIC MENSA - REVERSE FT. G-EAZY</h3>
+                        <h6>AUG 8, 2018  MUSIC VIDEO</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up">
+                        <img src="slike/thumb-power.jpg">
+                        <h3>POWER FT. NEF THE PHARAOH & P-LO</h3>
+                        <h6>JUL 17, 2018  MUSIC VIDEO</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="100">
+                        <img src="slike/THUMB-DROPs.jpg">
+                        <h3>G-EAZY - DROP FT. BLACYOUNGSTA & BLOCBOY JB</h3>
+                        <h6>JUN 22, 2018  MUSIC</h6>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-delay="200">
+                        <img src="slike/thumb-kimmel.jpg">
+                        <h3>JIMMY KIMMEL LIVE</h3>
+                        <h6>JUN 15, 2018</h6>
+                    </div>
+                </div>
+            </div>
+            <div id="booking" class="booking">
+                <h1>Booking</h1>
+                <p>If you are interested in booking a concert of your own, click the button below.</p>
+                <button>Book a concert</button>
+            </div>
+            <footer>
+                <h3>Connect</h3>
+                <div class="socials">
+                    <a href="https://twitter.com/g_eazy"></a>
+                    <a href="https://www.facebook.com/G.Eazy/"></a>
+                    <a href="https://open.spotify.com/artist/02kJSzxNuaWGqwubyUba0Z"></a>
+                    <a href="http://youtube.com/GEazyTV"></a>
+                    <aa href="http://www.stillhouse.com/"></aa>
+                </div>
+                <span>&copy;Mario Fučkan, 2019.</span>
+            </footer>
+        </div>
+        <script src="js/animatescroll.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html, .container {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../slike/landing.jpg");
+    background-size: cover;
+}
+
+@keyframes img {
+    0% {
+        transform: rotateX(0deg) rotateZ(0deg);
+    }
+    
+    100% {
+        transform: rotateX(360deg)rotateZ(360deg);
+    }
+}
+
+.container img {
+    animation-name: img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.container .loaderbar {
+    background-color: white;
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.container .loaderbar .loader {
+    border-radius: 20px;
+    width: 0%;
+    height: 100%;
+    background-color: #141414;
+}
